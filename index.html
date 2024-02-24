@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create NFT Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+z9Kyi7z2QjaAzlJ/7+Ibh/h3QuCz9Eom6G5StJ" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>Create NFT</h1>
+    <form id="createNFTForm">
+      <div class="mb-3">
+        <label for="nftName" class="form-label">NFT Name</label>
+        <input type="text" class="form-control" id="nftName" required>
+      </div>
+      <div class="mb-3">
+        <label for="nftDescription" class="form-label">Description</label>
+        <textarea class="form-control" id="nftDescription" rows="3" required></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="nftImage" class="form-label">Image URL</label>
+        <input type="url" class="form-control" id="nftImage" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Create NFT</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap Bundle JS (Popper.js + Bootstrap JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-Or3Mw5k3DjtiH6DB4V8P5Yy9+1Lg6E5NO3bMY38z5aVodFqluxsMfNc8vZ6f/Clb" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-5nFkC7Co3kA/pLdz2waKdQIkiDzuxN9IjUwr2obwHcjX1cPFhnvuPMpOvhbF+qNh" crossorigin="anonymous"></script>
+
+</body>
+</html>
